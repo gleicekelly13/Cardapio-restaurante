@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css'
 import Topo from '@/componentes/Topo';
 import Categorias from '@/componentes/Categorias';
+import CampoDeBusca from '@/componentes/CampoDeBusca';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,6 +22,8 @@ export default function Home() {
       <Topo />
 
       <Categorias />
+
+      <CampoDeBusca />
         
     </>
   )
