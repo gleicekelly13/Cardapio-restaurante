@@ -1,10 +1,12 @@
 import Image from "next/image";
-import Banner from "../../../public/assets/banner.png"
+import Banner from "../../../public/assets/banner.png";
+
+import styles from "./Topo.module.css";
 
 
 export default function Topo () {
     return (
-        <header>
+        <header className={styles.banner}>
             <Image src={Banner} alt="banner"/>
             <div>
                 <h1>Restaurante</h1>
