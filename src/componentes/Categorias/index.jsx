@@ -11,7 +11,7 @@ import Sobremesas from "../../../public/assets/sobremesa.png";
 
 const Categorias = () => {
     return (
-        <section className="secao-categorias">
+        <section className="secao-categorias limitar-secao">
             <div className="container-buttons">
                 <button>
                     <Image src={Entradas} alt="icone-entrada" />
