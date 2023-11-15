@@ -1,0 +1,19 @@
+.cards {
+    width: 250px;
+    flex: 1;
+    border: 1px solid #daa520;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards figure {
+    height: 250px;
+}
+
+.cards figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
