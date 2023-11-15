@@ -1,6 +1,6 @@
 .cards {
     width: 250px;
-    flex: 1;
+    flex-grow: 1;
     border: 1px solid #daa520;
     border-radius: 4px;
     display: flex;
@@ -27,7 +27,7 @@
 }
 
 .container_informacoes div:nth-child(1) {
-    flex: 1;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;

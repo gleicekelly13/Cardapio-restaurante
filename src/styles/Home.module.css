@@ -7,14 +7,12 @@
 }
 
 .limitar_secao {
-   /* width: 100%;
+    width: 100%;
     max-width: 1024px;
-    margin: 0 auto; */
+    margin: 0 auto; 
 }
 
 .secao_cards {
-    width: 100%;
-    max-width: 1024px;
     display: flex;
     flex-direction: column;
     gap: 10px;
