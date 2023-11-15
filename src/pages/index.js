@@ -26,7 +26,7 @@ export default function Home() {
       
       <Topo />
 
-      <main className='container-principal'>
+      <main className={styles.container_principal}>
         <Categorias />
 
         <CampoDeBusca />

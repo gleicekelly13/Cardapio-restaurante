@@ -1,0 +1,36 @@
+.limitar_secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container_buttons button {
+    padding: 10px 0;
+    flex: 1 1 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container_buttons button:hover {
+    background-color: #daa520;
+}
+
+.container_buttons img {
+    width: 20px;
+    height: auto;
+}

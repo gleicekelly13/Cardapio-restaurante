@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.limitar-secao {
+.limitar_secao {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
