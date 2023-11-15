@@ -4,7 +4,7 @@ import Lupa from "../../../public/assets/lupa.png";
 
 export default function CampoDeBusca () {
     return (
-        <div className="container-input limitar-secao">
+        <div className={[styles.container_input, styles.limitar_secao].join(" ")}>
             <Image src={Lupa} alt="icone-lupa" />
             <input 
                 type="text"
