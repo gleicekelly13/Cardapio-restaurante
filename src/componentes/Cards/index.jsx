@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Cards ({produto}) {
     return (
-        <div className="cards">
+        <div className={styles.cards}>
             <figure>
                 <Image src={produto.imagem} alt={produto.nome}/>
             </figure>
-            <div className="container-informacoes">
+            <div className={styles.container_informacoes}>
                 <div>
                     <h3>{produto.nome}</h3>
                     <small>{produto.categoria}</small>

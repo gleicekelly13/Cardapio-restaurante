@@ -5,3 +5,24 @@
     align-items: center;
     gap: 30px;
 }
+
+.limitar_secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secao_cards div h2 {
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #daa520;
+    text-align: center;
+}
+

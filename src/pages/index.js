@@ -31,12 +31,12 @@ export default function Home() {
 
         <CampoDeBusca />
 
-        <section className='secao-cards limitar-secao'>
+        <section className={[styles.secao_cards, styles.limitar_secao].join(" ")}>
           <div>
             <h2>Cardápio</h2>
           </div>
 
-          <div className='container-cards'>
+          <div className={styles.container_cards}>
             {produtos.map((produto) => (
               <Cards key={produto.id} produto={produto} />
             ))}
