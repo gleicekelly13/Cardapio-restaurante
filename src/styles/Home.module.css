@@ -7,15 +7,17 @@
 }
 
 .limitar_secao {
-    width: 100%;
+   /* width: 100%;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 
 .secao_cards {
+    width: 100%;
+    max-width: 1024px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .secao_cards div h2 {
@@ -26,3 +28,12 @@
     text-align: center;
 }
 
+.container_cards {   
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
