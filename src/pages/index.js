@@ -44,7 +44,9 @@ export default function Home() {
       <main className={styles.container_principal}>
         <Categorias handleFiltrarProdutos={handleFiltrarProdutos} />
 
-        <CampoDeBusca handleBuscarProduto={handleBuscarProduto} />
+        <CampoDeBusca 
+          textoBuscaDigitado={textoBuscaDigitado}
+          handleBuscarProduto={handleBuscarProduto} />
 
         <section className={[styles.secao_cards, styles.limitar_secao].join(" ")}>
           <div>
