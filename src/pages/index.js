@@ -21,7 +21,7 @@ export default function Home() {
     textoDigitado.length >= 3 && setDadosFiltrados(buscarProduto(textoDigitado))
   }
 
-  const handleFiltraProdutos = (categoria) => {
+  const handleFiltrarProdutos = (categoria) => {
     setTextoBuscaDigitado("");
     setDadosFiltrados(filtrarProdutos(categoria));
 
@@ -42,7 +42,7 @@ export default function Home() {
       <Topo />
 
       <main className={styles.container_principal}>
-        <Categorias handleFiltraProdutos={handleFiltraProdutos} />
+        <Categorias handleFiltrarProdutos={handleFiltrarProdutos} />
 
         <CampoDeBusca handleBuscarProduto={handleBuscarProduto} />
 
