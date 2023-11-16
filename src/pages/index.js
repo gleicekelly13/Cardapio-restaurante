@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
@@ -7,11 +7,26 @@ import Categorias from '@/componentes/Categorias';
 import CampoDeBusca from '@/componentes/CampoDeBusca';
 import { produtos } from '../dados/dados-produtos';
 import Cards from '@/componentes/Cards';
+import { buscarProduto, filtrarProdutos, produtosEntrada } from '@/service/service';
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntrada);
+  const [textoBuscaDigitado, setTextoBuscaDigitado] = useState(" ");
+
+  const handleBuscarProduto = (textoDigitado) => {
+    setTextoBuscaDigitado(textoDigitado);
+    textoDigitado.length >= 3 && setDadosFiltrados(buscarProduto(textoDigitado))
+  }
+
+  const handleFiltraProdutos = (categoria) => {
+    setTextoBuscaDigitado("");
+    setDadosFiltrados(filtrarProdutos(categoria));
+
+  }
+
   return (
     <div>
       <Head>
@@ -27,9 +42,9 @@ export default function Home() {
       <Topo />
 
       <main className={styles.container_principal}>
-        <Categorias />
+        <Categorias handleFiltraProdutos={handleFiltraProdutos} />
 
-        <CampoDeBusca />
+        <CampoDeBusca handleBuscarProduto={handleBuscarProduto} />
 
         <section className={[styles.secao_cards, styles.limitar_secao].join(" ")}>
           <div>
@@ -37,7 +52,7 @@ export default function Home() {
           </div>
 
           <div className={styles.container_cards}>
-            {produtos.map((produto) => (
+            {dadosFiltrados.map((produto) => (
               <Cards key={produto.id} produto={produto} />
             ))}
           </div>
