@@ -5,7 +5,6 @@ import styles from '@/styles/Home.module.css';
 import Topo from '@/componentes/Topo';
 import Categorias from '@/componentes/Categorias';
 import CampoDeBusca from '@/componentes/CampoDeBusca';
-import { produtos } from '../dados/dados-produtos';
 import Cards from '@/componentes/Cards';
 import { buscarProduto, filtrarProdutos, produtosEntrada } from '@/service/service';
 
@@ -16,15 +15,18 @@ export default function Home() {
   const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntrada);
   const [textoBuscaDigitado, setTextoBuscaDigitado] = useState(" ");
 
+  const [botaoClicado, setBotaoClicado] = useState("Entradas")
+
   const handleBuscarProduto = (textoDigitado) => {
     setTextoBuscaDigitado(textoDigitado);
     textoDigitado.length >= 3 && setDadosFiltrados(buscarProduto(textoDigitado))
+    setBotaoClicado("");
   }
 
   const handleFiltrarProdutos = (categoria) => {
     setTextoBuscaDigitado("");
     setDadosFiltrados(filtrarProdutos(categoria));
-
+    setBotaoClicado(categoria);
   }
 
   return (
@@ -42,11 +44,13 @@ export default function Home() {
       <Topo />
 
       <main className={styles.container_principal}>
-        <Categorias handleFiltrarProdutos={handleFiltrarProdutos} />
+        <Categorias 
+          botaoClicado = {botaoClicado}
+          handleFiltrarProdutos = {handleFiltrarProdutos} />
 
         <CampoDeBusca 
-          textoBuscaDigitado={textoBuscaDigitado}
-          handleBuscarProduto={handleBuscarProduto} />
+          textoBuscaDigitado = {textoBuscaDigitado}
+          handleBuscarProduto = {handleBuscarProduto} />
 
         <section className={[styles.secao_cards, styles.limitar_secao].join(" ")}>
           <div>
