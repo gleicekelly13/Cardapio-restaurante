@@ -53,3 +53,13 @@
         font-size: 26px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .banner div h1 {
+        font-size: 26px;
+    }
+
+    .banner div p {
+        font-size: 18px;
+    }
+}
