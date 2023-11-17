@@ -32,3 +32,24 @@
     font-family: 'Dancing Script', cursive;
     color: #daa520;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .banner div p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner div {
+        max-width: 60%;
+    }
+
+    .banner div h1 {
+        font-size: 36px;
+    }
+
+    .banner div p {
+        font-size: 26px;
+    }
+}
