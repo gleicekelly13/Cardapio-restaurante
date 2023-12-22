@@ -1,5 +1,8 @@
 <h1 align = "center">Cardápio restaurante</h1>
-
+<h2 align="center">:page_facing_up: Descrição do projeto</h2>
+<p>Projeto proposto no curso de React da Devmedia, um site de cardápio para um restaurante, 
+  que possui uma página principal que mostra o cardápio e permite que o usuário busque por produtos.</p>
+<br>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
