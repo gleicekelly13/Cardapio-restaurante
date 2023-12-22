@@ -12,7 +12,14 @@
 <br>
 
 <div align = "center">
-<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/4839e904-2579-4688-b5bf-1b857dca0efd" width = "500" />
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/9abade5b-66b2-48a7-b12b-d771125da17e" width = "500" />
+</div>
+<br>
+
+## :iphone: Mobile design
+<br>
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/aaa9a8c9-9bda-4687-9b1c-c47ce751c2c4" width = "300"
 </div>
 <br>
 
