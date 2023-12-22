@@ -4,6 +4,12 @@
   que possui uma página principal que mostra o cardápio e permite que o usuário busque por produtos.</p>
 <br>
 
+## :desktop_computer: Desktop design
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/9e09893a-414a-4b5c-8956-a30bd3dc6357" width = "500" />
+</div>
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
