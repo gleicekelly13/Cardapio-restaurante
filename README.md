@@ -5,8 +5,14 @@
 <br>
 
 ## :desktop_computer: Desktop design
+<br>
 <div align = "center">
 <img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/9e09893a-414a-4b5c-8956-a30bd3dc6357" width = "500" />
+</div>
+<br>
+
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/4839e904-2579-4688-b5bf-1b857dca0efd" width = "500" />
 </div>
 <br>
 
