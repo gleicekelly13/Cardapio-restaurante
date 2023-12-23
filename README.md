@@ -24,6 +24,9 @@
 <br>
 
 <h2 align="center">:hourglass: Status do projeto </h2>
+<h4>:white_check_mark: Desktop - FINALIZADO :white_check_mark: </h4>
+<h4>:white_check_mark: Mobile - FINALIZADO :white_check_mark: </h4>
+<br>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
