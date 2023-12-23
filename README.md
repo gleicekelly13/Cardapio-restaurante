@@ -29,6 +29,11 @@
 <br>
 
 <h2 align="center">:hammer: Funcionalidades do projeto </h2>
+<ul>
+  <li>Uso de uma coleção de dados para armazenar informações;</li>
+  <li>Exibir os componentes de forma dinâmica na tela;</li>
+  <li>É uma aplicação capaz de processar e interagir a interações do usuário;</li>
+</ul>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
