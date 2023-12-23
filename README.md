@@ -28,6 +28,8 @@
 <h4>:white_check_mark: Mobile - FINALIZADO :white_check_mark: </h4>
 <br>
 
+<h2 align="center">:hammer: Funcionalidades do projeto </h2>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
