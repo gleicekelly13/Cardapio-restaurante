@@ -19,7 +19,7 @@
 ## :iphone: Mobile design
 <br>
 <div align = "center">
-<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/aaa9a8c9-9bda-4687-9b1c-c47ce751c2c4" width = "300"
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/aaa9a8c9-9bda-4687-9b1c-c47ce751c2c4" width = "300" />
 </div>
 <br>
 
@@ -31,9 +31,13 @@
 <h2 align="center">:hammer: Funcionalidades do projeto </h2>
 <ul>
   <li>Uso de uma coleção de dados para armazenar informações;</li>
-  <li>Exibir os componentes de forma dinâmica na tela;</li>
+  <li>Exibe os componentes de forma dinâmica na tela;</li>
   <li>É uma aplicação capaz de processar e interagir a interações do usuário;</li>
+  <li>Realiza a busca com base no texto digitado pelo usuário no campo de busca;</li>
+  <li>O site também contém um filtro por categoria, onde o usuário pode ver os pratos conforme o seu tipo;</li>
+  <li>O botão selecionado realiza o filtro. Assim o usuário encontra com facilidade os pratos de uma categoria específica.</li>
 </ul>
+<br>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
