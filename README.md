@@ -1,7 +1,6 @@
 <h1 align = "center">Cardápio restaurante</h1>
 <h2 align="center">:page_facing_up: Descrição do projeto</h2>
-<p>Projeto proposto no curso de React da Devmedia, um site de cardápio para um restaurante, 
-  que possui uma página principal que mostra o cardápio e permite que o usuário busque por produtos.</p>
+<p>Projeto proposto no curso de React da Devmedia, um site para um restaurante, onde é apresentado um cardápio com todos os pratos. O objetivo é que os clientes consigam buscar no site qualquer prato servido pelo restaurante através do nome, categoria ou descrição do prato.</p>
 <br>
 
 ## :desktop_computer: Desktop design
