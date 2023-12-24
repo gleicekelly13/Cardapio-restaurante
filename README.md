@@ -39,6 +39,10 @@
 </ul>
 <br>
 
+<h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
+
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
