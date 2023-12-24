@@ -40,6 +40,13 @@
 <br>
 
 <h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
+<p>Por meio deste projeto foi possível colocar em prática os seguintes conceitos:</p>
+<ul>
+  <li>Array.map;</li>
+  <li>Array.filter;</li>
+  <li>Evento Onchange;</li>
+  <li>Códigos e funções JavaScript;</li>
+</ul>
 
 <br>
 
