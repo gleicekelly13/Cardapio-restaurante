@@ -50,6 +50,13 @@
   <li>Criação do efeito "acender" para o botões de categoria utilizando uma variável de estado e classes CSS.</li>
 </ul>
 
+<h2 align="center"> :computer: Tecnologias utilizadas </h2>
+<p>HTML5</p>
+<p>CSS3</p>
+<p>REACT</p>
+<p>NEXT.js</p>
+<br>
+
 <br>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
