@@ -46,6 +46,9 @@
   <li>Array.filter;</li>
   <li>Evento Onchange;</li>
   <li>Códigos e funções JavaScript;</li>
+  <li>Uso de JavaScript para construir buscas e filtros na coleção de dados;</li>
+  <li>Uso de props e variáveis de estado;</li>
+  <li>Criação do efeito "acender" para o botões de categoria utilizando uma variável de estado e classes CSS.</li>
 </ul>
 
 <br>
