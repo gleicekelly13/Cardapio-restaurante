@@ -1,3 +1,73 @@
+<h1 align = "center">Cardápio restaurante</h1>
+<h2 align="center">:page_facing_up: Descrição do projeto</h2>
+<p>Projeto proposto no curso de React da Devmedia, um site para um restaurante, onde é apresentado um cardápio com todos os pratos. O objetivo é que os clientes consigam buscar no site qualquer prato servido pelo restaurante através do nome, categoria ou descrição do prato.</p>
+<br>
+
+## :desktop_computer: Desktop design
+<br>
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/9e09893a-414a-4b5c-8956-a30bd3dc6357" width = "500" />
+</div>
+<br>
+
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/9abade5b-66b2-48a7-b12b-d771125da17e" width = "500" />
+</div>
+<br>
+
+## :iphone: Mobile design
+<br>
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/aaa9a8c9-9bda-4687-9b1c-c47ce751c2c4" width = "300" />
+</div>
+<br>
+
+<h2 align="center">:hourglass: Status do projeto </h2>
+<h4>:white_check_mark: Desktop - FINALIZADO :white_check_mark: </h4>
+<h4>:white_check_mark: Mobile - FINALIZADO :white_check_mark: </h4>
+<br>
+
+<h2 align="center">:hammer: Funcionalidades do projeto </h2>
+<ul>
+  <li>Uso de uma coleção de dados para armazenar informações;</li>
+  <li>Exibe os componentes de forma dinâmica na tela;</li>
+  <li>É uma aplicação capaz de processar e interagir a interações do usuário;</li>
+  <li>Realiza a busca com base no texto digitado pelo usuário no campo de busca;</li>
+  <li>O site também contém um filtro por categoria, onde o usuário pode ver os pratos conforme o seu tipo;</li>
+  <li>O botão selecionado realiza o filtro. Assim o usuário encontra com facilidade os pratos de uma categoria específica.</li>
+</ul>
+<br>
+
+<h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
+<p>Por meio deste projeto foi possível colocar em prática os seguintes conceitos:</p>
+<ul>
+  <li>Array.map;</li>
+  <li>Array.filter;</li>
+  <li>Evento Onchange;</li>
+  <li>Códigos e funções JavaScript;</li>
+  <li>Uso de JavaScript para construir buscas e filtros na coleção de dados;</li>
+  <li>Uso de props e variáveis de estado;</li>
+  <li>Criação do efeito "acender" para o botões de categoria utilizando uma variável de estado e classes CSS.</li>
+</ul>
+<br>
+
+<h2 align="center"> :file_folder: Acesso ao projeto </h2>
+<br>
+
+<h2 align="center"> :computer: Tecnologias utilizadas </h2>
+<p>HTML5</p>
+<p>CSS3</p>
+<p>REACT</p>
+<p>NEXT.js</p>
+<br>
+
+# :sunglasses: Desenvolvedora
+
+- GitHub - [GleiceKelly](https://github.com/gleicekelly13)
+- LinkedIn - [Gleice Kelly Oliveira](https://www.linkedin.com/in/gleicekelly13/)
+<br>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
