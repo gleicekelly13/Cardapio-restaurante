@@ -49,6 +49,10 @@
   <li>Uso de props e variáveis de estado;</li>
   <li>Criação do efeito "acender" para o botões de categoria utilizando uma variável de estado e classes CSS.</li>
 </ul>
+<br>
+
+<h2 align="center"> :file_folder: Acesso ao projeto </h2>
+<br>
 
 <h2 align="center"> :computer: Tecnologias utilizadas </h2>
 <p>HTML5</p>
