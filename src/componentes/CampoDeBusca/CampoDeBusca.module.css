@@ -41,3 +41,9 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .container_input ::placeholder {
+        font-size: 11px;
+    }
+}
