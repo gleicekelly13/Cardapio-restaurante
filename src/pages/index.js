@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntrada);
-  const [textoBuscaDigitado, setTextoBuscaDigitado] = useState(" ");
+  const [textoBuscaDigitado, setTextoBuscaDigitado] = useState("");
 
   const [botaoClicado, setBotaoClicado] = useState("Entradas")
 

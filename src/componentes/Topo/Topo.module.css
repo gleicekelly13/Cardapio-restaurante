@@ -63,3 +63,38 @@
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 468px) {
+    .banner div {
+        margin-right: 3rem;
+        margin-top: 1rem;
+    }
+
+    .banner img {
+        height: 27rem;
+    }
+
+    .banner div p {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner div {
+        margin-right: 2rem;
+        margin-top: 2rem;
+        width: 55%;
+    }
+
+    .banner div h1 {
+        font-size: 22px;
+    }
+
+    .banner img {
+        height: 23rem;
+    }
+
+    .banner div p {
+        margin-right: 0.4rem;
+    }
+}
