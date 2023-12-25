@@ -18,7 +18,7 @@
 ## :iphone: Mobile design
 <br>
 <div align = "center">
-<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/aaa9a8c9-9bda-4687-9b1c-c47ce751c2c4" width = "300" />
+<img src = "https://github.com/gleicekelly13/Cardapio-restaurante/assets/80974593/39fe9110-b7ed-4321-a417-3d1616eaeaf0" width = "300" />
 </div>
 <br>
 
