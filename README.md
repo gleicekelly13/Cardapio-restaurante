@@ -52,6 +52,7 @@
 <br>
 
 <h2 align="center"> :file_folder: Acesso ao projeto </h2>
+<p>Você pode acessar o projeto clicando aqui: https://cardapio-restaurante-delta.vercel.app/ </p>
 <br>
 
 <h2 align="center"> :computer: Tecnologias utilizadas </h2>
