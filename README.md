@@ -42,7 +42,7 @@
 <p>Por meio deste projeto foi possível colocar em prática os seguintes conceitos:</p>
 <ul>
   <li>Utilização da função nativa Array.map;</li>
-  <li>Array.filter;</li>
+  <li>Utilização da função nativa Array.filter;</li>
   <li>Evento Onchange;</li>
   <li>Códigos e funções JavaScript;</li>
   <li>Uso de JavaScript para construir buscas e filtros na coleção de dados;</li>
