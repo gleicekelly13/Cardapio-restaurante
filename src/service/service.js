@@ -4,7 +4,7 @@ export const buscarProduto = (textoDigitado) => {
     return produtos.filter (
         (produto) => 
             produto.nome.toLowerCase().includes(textoDigitado.toLowerCase()) ||
-            produto.descricao.toLocaleLowerCase().includes(textoDigitado.toLocaleLowerCase())
+            produto.descricao.toLowerCase().includes(textoDigitado.toLowerCase())
     );
 }
 
