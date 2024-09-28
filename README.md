@@ -56,11 +56,13 @@
 <br>
 
 <h2 align="center"> :computer: Tecnologias utilizadas </h2>
-<p>HTML5</p>
-<p>CSS3</p>
-<p>JAVASCRIPT</p>
-<p>REACT</p>
-<p>NEXT.js</p>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JAVASCRIPT</li>
+  <li>REACT</li>
+  <li>NEXT.js</li>
+</ul>
 <br>
 
 # :sunglasses: Desenvolvedora
